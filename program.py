@@ -1,7 +1,8 @@
 def program():
     a= int(input("Enter a number: "))
-    print("Table of ", a, " till 10")
-    for i in range(10):
+    val = int(input("Print the table till? "))
+    print("Table of ", a, " till ", val)
+    for i in range(val):
         i+=1
         ans=i*a
         print(a, "x", i, "=", ans)
